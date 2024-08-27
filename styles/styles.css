@@ -1,0 +1,43 @@
+.circleRoundAOne {
+  animation: circleRound 6s linear infinite;
+}
+.circleRoundATwo {
+  animation: circleRound2 6s linear infinite;
+}
+.circleRoundBOne {
+  animation: circleRound 5s linear infinite;
+}
+.circleRoundBTwo {
+  animation: circleRound2 5s linear infinite;
+}
+.zoomInOut {
+  animation: zoomInOut 2s linear infinite;
+}
+
+@keyframes circleRound {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes circleRound2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes zoomInOut {
+  0% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(115%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
